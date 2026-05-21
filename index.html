@@ -4,18 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mike Harris</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700;1,900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
   <header class="site-header">
     <nav class="nav">
-      <span class="nav-logo">mh</span>
+      <div class="nav-logo">Mike Harris</div>
       <ul class="nav-links">
         <li><a href="#projects">Projects</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="https://www.linkedin.com/in/michael-j-harris/" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="mailto:mikeharris.mailbox@gmail.com">Contact</a></li>
+        <li><a href="https://github.com/mikeharris-github" target="_blank" rel="noopener">GitHub</a></li>
       </ul>
     </nav>
   </header>
@@ -23,144 +26,123 @@
   <main>
 
     <!-- Hero -->
-    <section class="hero" id="home">
-      <div class="hero-inner">
-        <p class="hero-eyebrow">Senior Product Manager</p>
-        <h1 class="hero-name">Mike Harris</h1>
-        <p class="hero-bio">
-          I build software products. These days I'm most excited about what
-          happens when product thinking meets AI — and I'm shipping things to
-          find out.
-        </p>
-        <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">View projects</a>
-          <a href="https://github.com/mikeharris-github" class="btn btn-ghost" target="_blank" rel="noopener">GitHub</a>
-        </div>
+    <section class="hero">
+      <div class="hero-left">
+        <span class="hero-tag">Product Manager + Builder</span>
+        <h1 class="hero-h1">PM by day.<br><em>Tinkerer</em><br>by night.</h1>
+        <p class="hero-sub">I use AI tools to build things — apps, prototypes, tools that probably shouldn't exist. Everything here is an experiment in public.</p>
       </div>
-      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-doodle">
+        <svg width="170" height="170" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="80" cy="80" r="60" fill="#1a1a1a"/>
+          <circle cx="80" cy="80" r="52" fill="#f5f2eb"/>
+          <rect x="52" y="58" width="16" height="22" rx="8" fill="#1a1a1a"/>
+          <rect x="92" y="58" width="16" height="22" rx="8" fill="#1a1a1a"/>
+          <path d="M58 104 Q80 120 102 104" stroke="#1a1a1a" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+          <circle cx="60" cy="69" r="4" fill="#f5f2eb"/>
+          <circle cx="100" cy="69" r="4" fill="#f5f2eb"/>
+          <path d="M72 44 Q80 36 88 44" stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+          <circle cx="115" cy="45" r="11" fill="#ff5c35"/>
+          <text x="115" y="49" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="700" fill="#fff">AI</text>
+        </svg>
+      </div>
     </section>
+
+    <!-- Strip -->
+    <div class="strip" aria-hidden="true">
+      <div class="strip-track">
+        <span class="strip-item">Claude Code</span><span class="strip-dot">·</span>
+        <span class="strip-item">AI Prototyping</span><span class="strip-dot">·</span>
+        <span class="strip-item">Product Thinking</span><span class="strip-dot">·</span>
+        <span class="strip-item">Senior PM</span><span class="strip-dot">·</span>
+        <span class="strip-item">Building in Public</span><span class="strip-dot">·</span>
+        <span class="strip-item">No CS Degree Required</span><span class="strip-dot">·</span>
+        <span class="strip-item">Claude Code</span><span class="strip-dot">·</span>
+        <span class="strip-item">AI Prototyping</span><span class="strip-dot">·</span>
+        <span class="strip-item">Product Thinking</span><span class="strip-dot">·</span>
+        <span class="strip-item">Senior PM</span><span class="strip-dot">·</span>
+        <span class="strip-item">Building in Public</span><span class="strip-dot">·</span>
+        <span class="strip-item">No CS Degree Required</span><span class="strip-dot">·</span>
+      </div>
+    </div>
 
     <!-- Projects -->
     <section class="section" id="projects">
-      <div class="container">
-        <h2 class="section-title">Projects</h2>
-        <div class="projects-grid">
+      <p class="sec-label">Things I've Built</p>
+      <div class="projects">
 
-          <article class="project-card">
-            <div class="project-header">
-              <span class="project-icon">&#9632;</span>
-              <a href="https://github.com/mikeharris-github/SE450-JPaint" title="GitHub" class="icon-link" target="_blank" rel="noopener">
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-              </a>
-            </div>
-            <h3 class="project-name">SE450 JPaint</h3>
-            <p class="project-desc">Course project for SE450 (Object-Oriented Programming) at DePaul University. Built a paint application exploring core Object-Oriented Programming design patterns.</p>
-            <ul class="project-tags">
-              <li>Java</li>
-              <li>OOP</li>
-              <li>DePaul</li>
-            </ul>
-          </article>
+        <article class="proj accent">
+          <div class="proj-num">01</div>
+          <p class="proj-status">Shipped</p>
+          <h3 class="proj-title">VR Puzzler</h3>
+          <p class="proj-desc">Mobile VR dungeon game where players navigate and solve puzzles using orbs. Built as part of the Udacity VR Developer Nanodegree.</p>
+          <a href="https://github.com/mikeharris-github/Udacity-VR-Puzzler" class="proj-link" target="_blank" rel="noopener">↗</a>
+        </article>
 
-          <article class="project-card">
-            <div class="project-header">
-              <span class="project-icon">&#9650;</span>
-              <a href="https://github.com/mikeharris-github/SE452-WildCard" title="GitHub" class="icon-link" target="_blank" rel="noopener">
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-              </a>
-            </div>
-            <h3 class="project-name">SE452 WildCard</h3>
-            <p class="project-desc">Group project for SE452 at DePaul University. A collaborative team build submitted as part of the course curriculum.</p>
-            <ul class="project-tags">
-              <li>Java</li>
-              <li>Group Project</li>
-              <li>DePaul</li>
-            </ul>
-          </article>
+        <article class="proj">
+          <div class="proj-num">02</div>
+          <p class="proj-status">Shipped</p>
+          <h3 class="proj-title">VR Night at the Museum</h3>
+          <p class="proj-desc">A mobile VR museum experience with interactive booths about VR technology and its history. Built with Unity.</p>
+          <a href="https://github.com/mikeharris-github/Udacity-VR-NightAtTheMuseum" class="proj-link" target="_blank" rel="noopener">↗</a>
+        </article>
 
-          <article class="project-card">
-            <div class="project-header">
-              <span class="project-icon">&#9679;</span>
-              <a href="https://github.com/mikeharris-github/Udacity-VR-Puzzler" title="GitHub" class="icon-link" target="_blank" rel="noopener">
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-              </a>
-            </div>
-            <h3 class="project-name">VR Puzzler</h3>
-            <p class="project-desc">Mobile VR dungeon game where players navigate a dungeon and solve puzzles using orbs. Built as part of the Udacity VR Developer Nanodegree.</p>
-            <ul class="project-tags">
-              <li>C#</li>
-              <li>Unity</li>
-              <li>VR</li>
-              <li>Mobile</li>
-            </ul>
-          </article>
+        <article class="proj">
+          <div class="proj-num">03</div>
+          <p class="proj-status">Shipped</p>
+          <h3 class="proj-title">VR Apartment</h3>
+          <p class="proj-desc">Mobile VR app for Google Cardboard built in Unity. An interactive apartment environment users can explore and interact with.</p>
+          <a href="https://github.com/mikeharris-github/Udacity-VR-Apartment" class="proj-link" target="_blank" rel="noopener">↗</a>
+        </article>
 
-          <article class="project-card">
-            <div class="project-header">
-              <span class="project-icon">&#9670;</span>
-              <a href="https://github.com/mikeharris-github/Udacity-VR-Apartment" title="GitHub" class="icon-link" target="_blank" rel="noopener">
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-              </a>
-            </div>
-            <h3 class="project-name">VR Apartment</h3>
-            <p class="project-desc">Mobile VR application for Google Cardboard built with Unity. An interactive apartment environment users can explore and interact with.</p>
-            <ul class="project-tags">
-              <li>C#</li>
-              <li>Unity</li>
-              <li>Google Cardboard</li>
-            </ul>
-          </article>
+        <article class="proj">
+          <div class="proj-num">04</div>
+          <p class="proj-status">Shipped</p>
+          <h3 class="proj-title">SE450 JPaint</h3>
+          <p class="proj-desc">Course project for SE450 (Object-Oriented Programming) at DePaul University, exploring core OOP design patterns through a paint application.</p>
+          <a href="https://github.com/mikeharris-github/SE450-JPaint" class="proj-link" target="_blank" rel="noopener">↗</a>
+        </article>
 
-          <article class="project-card">
-            <div class="project-header">
-              <span class="project-icon">&#9660;</span>
-              <a href="https://github.com/mikeharris-github/Udacity-VR-NightAtTheMuseum" title="GitHub" class="icon-link" target="_blank" rel="noopener">
-                <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
-              </a>
-            </div>
-            <h3 class="project-name">VR Night at the Museum</h3>
-            <p class="project-desc">A mobile VR museum experience featuring interactive booths with information about VR technology and its history. Built with Unity.</p>
-            <ul class="project-tags">
-              <li>C#</li>
-              <li>Unity</li>
-              <li>VR</li>
-              <li>Mobile</li>
-            </ul>
-          </article>
+        <article class="proj">
+          <div class="proj-num">05</div>
+          <p class="proj-status">Shipped</p>
+          <h3 class="proj-title">SE452 WildCard</h3>
+          <p class="proj-desc">Group project for SE452 at DePaul University. A collaborative team build submitted as part of the course curriculum.</p>
+          <a href="https://github.com/mikeharris-github/SE452-WildCard" class="proj-link" target="_blank" rel="noopener">↗</a>
+        </article>
 
-        </div>
+        <article class="proj proj-empty">
+        </article>
+
       </div>
+      <div class="add-proj"><span>More experiments coming soon &rarr;</span></div>
     </section>
 
     <!-- About -->
-    <section class="section section-about" id="about">
-      <div class="container container-narrow">
-        <h2 class="section-title">About</h2>
-        <div class="about-content">
-          <p>
-            I'm a Senior Product Manager with a background spanning developer
-            platforms, internal tools, content management systems, and API
-            platforms. I've spent my career thinking about how to make complex
-            software products feel simple and useful.
-          </p>
-          <p>
-            Earlier in my career I worked in product innovation, building
-            prototypes at the edge of what was possible — VR and AR
-            experiences, payments in new environments like car operating
-            systems, and other bets on where technology was heading.
-          </p>
-          <p>
-            Right now I'm most interested in AI. I believe we're at a moment
-            where a PM with curiosity and the right tools can ship real
-            products faster than ever before. This site is where I'm putting
-            that to the test.
-          </p>
+    <section class="section" id="about">
+      <p class="sec-label">The Human Behind the Builds</p>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="about-head">Not a dev.<br><em>Just curious.</em></h2>
+          <p class="about-body">Product manager by trade. I've spent years figuring out what people need and why. Now I'm using AI to actually build those things myself — no engineers required. This site is where I put the results.</p>
+        </div>
+        <div class="about-right">
           <div class="about-links">
-            <a href="mailto:mikeharris.mailbox@gmail.com">mikeharris.mailbox@gmail.com</a>
-            <span class="divider">&middot;</span>
-            <a href="https://github.com/mikeharris-github" target="_blank" rel="noopener">GitHub</a>
-            <span class="divider">&middot;</span>
-            <a href="https://www.linkedin.com/in/michael-j-harris/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="about-link" href="https://github.com/mikeharris-github" target="_blank" rel="noopener">
+              <i class="ti ti-brand-github" aria-hidden="true"></i>
+              <span>mikeharris&#8209;github</span>
+              <span class="arrow">↗</span>
+            </a>
+            <a class="about-link" href="https://www.linkedin.com/in/michael-j-harris/" target="_blank" rel="noopener">
+              <i class="ti ti-brand-linkedin" aria-hidden="true"></i>
+              <span>LinkedIn</span>
+              <span class="arrow">↗</span>
+            </a>
+            <a class="about-link" href="mailto:mikeharris.mailbox@gmail.com">
+              <i class="ti ti-mail" aria-hidden="true"></i>
+              <span>Get in touch</span>
+              <span class="arrow">↗</span>
+            </a>
           </div>
         </div>
       </div>
@@ -169,9 +151,9 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2026 Mike Harris</p>
-    </div>
+    <div class="footer-logo">Mike Harris</div>
+    <div class="footer-note">&copy; 2026</div>
+    <a href="mailto:mikeharris.mailbox@gmail.com" class="footer-badge">Open to Collabs</a>
   </footer>
 
 </body>
